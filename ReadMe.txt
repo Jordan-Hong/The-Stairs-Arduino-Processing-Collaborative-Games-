@@ -25,14 +25,15 @@ Level 3:
 
 新增防護盾效果
 
-獲勝條件: 在有限生命數內成功蒐集完3顆星星。
+獲勝條件: 在有限生命數內成功蒐集完星星。
 失敗條件: 同Level 2。
 
 生命數: 3
+星星數: 5
 
 ============================================================
 操作方式:
-
+--------- Computer Version ---------------------------- (Computer Version Branch)
 選單滑動: UP / DOWN
 跑動: LEFT / RIGHT
 衝刺(Dash): Z
@@ -41,6 +42,12 @@ Level 3:
 
 道具種類: 生命(愛心) / 星星
 
+--------- Arduino + Processing Version ----------------- (main Branch)
+選單滑動: Joy Stick UP / DOWN
+跑動: Joy Stick LEFT / RIGHT
+選單選擇 / 衝刺(Dash): Joy Stick Z-button 
+啟動防護盾(Shield): Photoresistor (遮光2秒啟動，CD時間: 10秒)
+撿拾道具: Ceramic Piezo (在防護盾模式下不能撿拾)
 
 -------------------------------------------------------------
 ** 注意 ** 
