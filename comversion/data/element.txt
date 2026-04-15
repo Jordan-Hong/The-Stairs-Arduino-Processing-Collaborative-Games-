@@ -1,0 +1,37 @@
+音效資料夾位置: /data/sound_effect/
+
+WAV檔:
+select: 當搖桿在任何menu(intro, lose, win)每次上下滑動的時候要觸發一次。
+click: 當在任何介紹畫面(包含lose, win)按下SW以選擇選項(start, restart, exit)的時候觸發一次。
+dash: 當角色在遊戲中每次按下SW以衝刺的時候觸發一次。(平常的左右跑步移動不觸發)
+shield: 當在第三關，每次藉由光敏電阻啟動防護罩的時候觸發一次。
+heart: 在第二、三關中，每次成功拾獲愛心時觸發一次。
+death_1、death_2: 當生命值結束時(不論是踩到尖刺而死、被火球砸死、被畫面頂端壓到、掉出畫面下方)按照順序觸發一次(先death_1再death_2)，優先權比hit低(如果是被火球砸到而死、踩到尖刺而死，先觸發hit音效，再觸發death_1、death_2音效)。
+lose: 當出現敗北畫面時觸發一次。
+
+MP3檔:
+(每切換一個畫面(intro、levels、lose、win)都不可以重疊音樂，需要先關閉上一個畫面的，再開啟這個畫面的。)
+intro: 在起始畫面觸發一次。
+level1: 在遊玩第一關時觸發一次。
+level2: 在遊玩第二關的時候觸發一次。
+level3: 在遊玩第三關的時候觸發一次。
+win: 在獲勝畫面時觸發一次。
+
+
+OGG檔:
+hit: 在任何一關中，每次踩到尖刺階梯或是被火球砸到就觸發一次(優先權高)。
+
+
+圖片背景資料夾位置: /data/background/
+PNG檔:
+
+原本的文字選項以及效果(被選取的字: 字樣放大，有蛋黃色方塊當底)都要保留。
+
+intro: 新設畫面，放在遊戲起始畫面，選項有: Start 以及 Exit。
+level1_intro: 設在intro按下Start之後，解釋玩法。
+level1: 第一關的遊戲背景。
+level2_intro: 設在level1晉級之後，解釋玩法。
+level2: 第二關的遊戲背景。
+level3_intro: 設在level2晉級之後，解釋玩法。
+win: 設在level3通關後，選項有: Restart to Level 1(按下後接到level1_intro)、Exit。
+lose: 設在任何關卡失敗後，選項有: Restart to Level 1、Restart This Level(按下後接到該level的intro)、Exit (新設)。
