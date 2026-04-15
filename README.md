@@ -58,3 +58,5 @@ Level 3:
 已新增全螢幕模式! 
 
 已新增電腦遊玩模式! (請至Computer-Verison Branch)
+
+接線部分請參考 Arduino Code (TheStairsM11402109.ino) 註解，謝謝。
